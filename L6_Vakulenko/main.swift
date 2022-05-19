@@ -32,7 +32,6 @@ let upwardSorting = line.elements.sorted { num1, num2 in
     return num1 < num2
 }
 let downSorting = line.elements.sorted(by: >)
-//захват значений
 
 print(line)
 print(upwardSorting)
